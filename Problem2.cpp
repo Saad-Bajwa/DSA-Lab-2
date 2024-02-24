@@ -1,3 +1,4 @@
+/*This program store the list of student and show the record of the students that are fail in the exam*/
 #include <iostream>
 #include <list>
 using namespace std;

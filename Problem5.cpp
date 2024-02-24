@@ -1,3 +1,4 @@
+/*This program validate the age and cnic length of the previous person class thorugh the getter and setter mehtod*/
 #include<iostream>
 #include<string>
 using namespace std;
@@ -20,7 +21,7 @@ Person:: Person(){
 }
 Person:: Person(string n, int a, string c){
     name = n;
-    if(a>0 || a < 130){
+    if(a>0 && a < 130){
         age = a;
     }
     else{
@@ -35,7 +36,7 @@ Person:: Person(string n, int a, string c){
 }
 void Person :: Setter(string n, int a, string c){
     name = n;
-    if(a>0 || a < 130){
+    if(a>0 && a < 130){
         age = a;
     }
     else{
@@ -60,6 +61,6 @@ void Person :: Getter(){
 }
 int main(){
     Person p1;
-    p1.Setter("Saad",20,"123454321");
+    p1.Setter("Saad",220,"123454321");
     p1.Getter();
 }
