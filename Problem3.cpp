@@ -1,3 +1,4 @@
+/*This program sort an array using bubble sort algorithm in ascending order*/
 #include<iostream>
 using namespace std;
 void SortArray(int array[],int size){

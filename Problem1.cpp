@@ -1,3 +1,5 @@
+/*This program calculate the area of the shapes according to user choice*/
+
 #include<iostream>
 using namespace std;
 void GetChoice(int choice, int &length, int & radius){

@@ -1,3 +1,4 @@
+/*This program contains a Person class and initialize the data member of the class through the parametrized constructor and print them*/
 #include<iostream>
 using namespace std;
 class Person{

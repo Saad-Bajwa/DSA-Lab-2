@@ -1,3 +1,4 @@
+/*This program added the data fields of the Distance class and return a third distance class that has the sum of these classes*/
 #include<iostream>
 using namespace std;
 class Distance{
